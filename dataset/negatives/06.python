@@ -1,0 +1,5 @@
+import zipfile
+def zip_files(file_names, zip_name):
+    with zipfile.ZipFile(zip_name, 'w') as zipf:
+        for file in file_names:
+            zipf.write(file)

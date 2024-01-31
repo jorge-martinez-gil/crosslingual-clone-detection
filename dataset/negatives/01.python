@@ -1,0 +1,3 @@
+import math
+def square_root(n):
+    return math.sqrt(n)

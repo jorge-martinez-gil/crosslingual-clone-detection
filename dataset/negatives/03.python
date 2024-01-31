@@ -1,0 +1,8 @@
+import turtle
+def draw_rectangle(width, height):
+    t = turtle.Turtle()
+    for _ in range(2):
+        t.forward(width)
+        t.left(90)
+        t.forward(height)
+        t.left(90)
